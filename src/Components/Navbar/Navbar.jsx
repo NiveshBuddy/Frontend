@@ -29,7 +29,7 @@ const Navbar = () => {
           <a href="#top" className={classes.a}>Forum</a>
         </li>
       </ul>
-      <button>Dashboard</button>
+      <div className={classes.navBtn}>Dashboard</div>
     </nav>
   );
 };
