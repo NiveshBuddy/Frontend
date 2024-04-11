@@ -1,0 +1,62 @@
+
+foot{
+    width: 100vw;
+    height: 34vh;
+    background-color: #313131;
+    display: flex;
+    font-family: 'Roboto';
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.about{
+    display: flex;
+    width: 30%;
+    height: 70%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+p .para{
+    width: 80%;
+    height: 100%;
+}
+
+.links{
+    display: flex;
+    width: 50%;
+    height: 80%;
+    align-items: center;
+}
+
+.flink{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+}
+
+.f{
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+.one{
+    width: 30%;
+}
+
+.two{
+    width: 30%;
+}
+
+.three{
+    width: 40%;
+}
