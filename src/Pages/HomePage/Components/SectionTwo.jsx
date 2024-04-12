@@ -1,16 +1,35 @@
 import React from "react";
 import classes from "../Styles/SectionTwo.module.css"
+import sr from './ScrollReveal'
 
-const SectionTwo = () => {
+export class SectionTwo extends React.Component {
+    props: Props;
+  
+    componentDidMount = () => {
+      const config = {
+        origin: 'bottom',
+        duration: 1000,
+        delay: 300,
+        distance: '100px',
+        scale: 0.5,
+        easing: 'ease',
+      }
+  
+      sr.reveal(this.refs.cards, config)
+      sr.reveal(this.refs.head, config)
+    }
+  
+
+render () {
     return (
         <main>
-            <div className={classes.main}>
+            <div className={classes.main} >
                 <div className={classes.content}>
-                    <div className={classes.head}>
+                    <div className={classes.head} ref='head'>
                         Your ultimate destination for timely insights
                     </div>
 
-                    <div className={classes.cards}>
+                    <div className={classes.cards} ref='cards'>
                         {/* 1st card */}
                         <div className={classes.card}>
                             <div className={classes.first_content}>
@@ -45,6 +64,8 @@ const SectionTwo = () => {
             </div>
         </main>
     )
+}
+
 }
 
 export default SectionTwo;
