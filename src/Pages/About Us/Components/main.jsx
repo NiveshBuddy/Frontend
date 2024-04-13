@@ -20,7 +20,7 @@ const MainContent = () => {
                 </div>
             </div>
             <div className={classes.image_section}>
-                <img src={image}/>
+                <img src={image} alt=""/>
             </div>
         </div>
     </div>

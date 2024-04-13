@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "../Styles/PicHead.module.css"
-import img1 from "../Assets/img1.jpg"
+// import img1 from "../Assets/img1.jpg"
 
 const PicHead = () => {
     return (
