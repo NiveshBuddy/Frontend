@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "../Styles/main.module.css"
-import image from "../Assets/main.svg"
+// import image from "../Assets/main.svg"
 
 const MainContent = () => {
     return (
@@ -20,7 +20,7 @@ const MainContent = () => {
                 </div>
             </div>
             <div className={classes.image_section}>
-                <img src={image} alt=""/>
+                <img src="https://res.cloudinary.com/dnrxsykwg/image/upload/v1713003301/main_q2d8wb.svg" alt=""/>
             </div>
         </div>
     </div>

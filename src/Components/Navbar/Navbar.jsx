@@ -1,13 +1,13 @@
 import React from "react";
 import classes from "./Navbar.module.css";
-import logo from "../../Assets/NiveshBuddy.svg";
+// import logo from "../../Assets/NiveshBuddy.svg";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav>
       <div className={classes.logo}>
-        <img src={logo} alt="logo" />
+        <img src="https://res.cloudinary.com/dnrxsykwg/image/upload/v1713003276/NiveshBuddy_bb6rje.svg" alt="logo" />
       </div>
       <ul className={classes.links}>
         <li>

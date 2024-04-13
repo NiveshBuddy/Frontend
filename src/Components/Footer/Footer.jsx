@@ -1,13 +1,13 @@
 import React from "react";
 import classes from "./Footer.module.css"
-import logo from "../../Assets/niveshBuddy copy.svg"
+// import logo from "../../Assets/niveshBuddy copy.svg"
 
 const Footer = () => {
   return (
     <footer>
       <div className={classes.about}>
         <div className={classes.logo}>
-          <img src={logo} alt="logo" />
+          <img src="https://res.cloudinary.com/dnrxsykwg/image/upload/v1713003276/niveshBuddy_copy_tbaysp.svg" alt="logo" />
         </div>
         <div className={classes.para}>
           <p>
