@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Navbar.module.css";
-import logo from "../../Assets/NiveshBuddy.svg"
+import logo from "../../Assets/NiveshBuddy.svg";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -10,15 +11,29 @@ const Navbar = () => {
       </div>
       <ul className={classes.links}>
         <li>
-          <a href="#top" className={classes.a}>Home</a>
+          <div className={classes.a}>
+            <Link
+              className={window.location.pathname === "/" ? "active" : ""}
+              to={"/"}
+            >
+              Home
+            </Link>
+          </div>
         </li>
         <li>
-          <a href="#top" className={classes.a}>About Us</a>
+          <div  className={classes.a}>
+          <Link
+              className={window.location.pathname === "/About" ? "active" : ""}
+              to={"/About"}
+            >
+            About Us
+            </Link>
+          </div>
         </li>
         <li className={classes.dropdown}>
-          <a href="#top" className={classes.a}>
+          <div className={classes.a}>
             Tutorials
-          </a>
+          </div>
           <div className={classes.dropdown_content}>
             <a href="#top">Link 1</a>
             <a href="#top">Link 2</a>
@@ -26,7 +41,9 @@ const Navbar = () => {
           </div>
         </li>
         <li>
-          <a href="#top" className={classes.a}>Forum</a>
+          <div className={classes.a}>
+            Forum
+          </div>
         </li>
       </ul>
       <div className={classes.navBtn}>Dashboard</div>

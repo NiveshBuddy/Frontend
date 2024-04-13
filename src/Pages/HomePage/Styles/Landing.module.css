@@ -63,3 +63,8 @@ button:active{
     scale: 0.9;
     transition: ease all 0.2s;
 }
+
+.btn{
+    font-size: initial;
+    background-color: #282828;
+}

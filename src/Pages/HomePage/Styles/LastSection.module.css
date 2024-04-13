@@ -38,4 +38,6 @@
 .btn{
     width: 20vw;
     height: 10%;
+    font-size: initial;
+    background-color: #282828;
 }

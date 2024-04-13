@@ -4,7 +4,7 @@ import logo from "../../Assets/niveshBuddy copy.svg"
 
 const Footer = () => {
   return (
-    <foot>
+    <footer>
       <div className={classes.about}>
         <div className={classes.logo}>
           <img src={logo} alt="logo" />
@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
       </div>
       
-    </foot>
+    </footer>
   );
 };
 

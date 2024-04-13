@@ -11,7 +11,7 @@ const Landing = () => {
                 </div>
                 <div className={classes.subHead}>
                     <h3>Your ultimate fintech companion for data-driven equity investing in India</h3>
-                    <button>Start Backtesting for Free!</button>
+                    <button className={classes.btn}>Start Backtesting for Free!</button>
                 </div>
             </div>
             </div>
