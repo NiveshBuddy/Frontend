@@ -1,71 +1,90 @@
 import React from "react";
-import classes from "../Styles/SectionTwo.module.css"
-import sr from './ScrollReveal'
+import classes from "../Styles/SectionTwo.module.css";
+import { motion } from "framer-motion";
 
-export class SectionTwo extends React.Component {
-    props: Props;
-  
-    componentDidMount = () => {
-      const config = {
-        origin: 'bottom',
-        duration: 1000,
-        delay: 300,
-        distance: '100px',
-        scale: 0.5,
-        easing: 'ease',
-      }
-  
-      sr.reveal(this.refs.cards, config)
-      sr.reveal(this.refs.head, config)
-    }
-  
+// function Component() {
+//     const scrollRef = useRef();
 
-render () {
-    return (
-        <main>
-            <div className={classes.main} >
-                <div className={classes.content}>
-                    <div className={classes.head} ref='head'>
-                        Your ultimate destination for timely insights
-                    </div>
+//     return (
+//       <div ref={scrollRef} style={{ overflow: "scroll" }}>
+//         <motion.div
+//           initial={{ opacity: 0 }}
+//           whileInView={{ opacity: 1 }}
+//           viewport={{ root: scrollRef }}
+//         />
+//       </div>
+//     )
+//   }
 
-                    <div className={classes.cards} ref='cards'>
-                        {/* 1st card */}
-                        <div className={classes.card}>
-                            <div className={classes.first_content}>
-                                <span>Portfolio Backtesting</span>
-                            </div>
-                            <div className={classes.second_content}>
-                                <span>Validate strategy performance using historical data and gain valuable insights.</span>
-                            </div>
-                        </div>
+const SectionTwo = () => {
+  return (
+    <main>
+      <div className={classes.main}>
+        <div className={classes.content}>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+              transition: { delay: 0.2, duration: 0.5 },
+            }}
+            className={classes.head}
+          >
+            Your ultimate destination for timely insights
+          </motion.div>
 
-                        {/* 2nd card */}
-                        <div className={classes.card}>
-                            <div className={classes.first_content}>
-                                <span>Financial Education</span>
-                            </div>
-                            <div className={classes.second_content}>
-                                <span>Learn the art of algorithmic-based investing from our expert-led content.</span>
-                            </div>
-                        </div>
-
-                        {/* 3rd card */}
-                        <div className={classes.card}>
-                            <div className={classes.first_content}>
-                                <span>Investors Community</span>
-                            </div>
-                            <div className={classes.second_content}>
-                                <span>Engage with like-minded individuals, share insights, and learn from each other.</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+              transition: { delay: 0.2, duration: 0.5 },
+            }}
+            className={classes.cards}
+          >
+            {/* 1st card */}
+            <div className={classes.card}>
+              <div className={classes.first_content}>
+                <span>Portfolio Backtesting</span>
+              </div>
+              <div className={classes.second_content}>
+                <span>
+                  Validate strategy performance using historical data and gain
+                  valuable insights.
+                </span>
+              </div>
             </div>
-        </main>
-    )
-}
 
-}
+            {/* 2nd card */}
+            <div className={classes.card}>
+              <div className={classes.first_content}>
+                <span>Financial Education</span>
+              </div>
+              <div className={classes.second_content}>
+                <span>
+                  Learn the art of algorithmic-based investing from our
+                  expert-led content.
+                </span>
+              </div>
+            </div>
+
+            {/* 3rd card */}
+            <div className={classes.card}>
+              <div className={classes.first_content}>
+                <span>Investors Community</span>
+              </div>
+              <div className={classes.second_content}>
+                <span>
+                  Engage with like-minded individuals, share insights, and learn
+                  from each other.
+                </span>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </div>
+    </main>
+  );
+};
 
 export default SectionTwo;
