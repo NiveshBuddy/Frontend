@@ -4,23 +4,13 @@ import { StickyScroll } from "../Styles/sticky-scroll-reveal.tsx";
 
 const content = [
   {
-    title: "Collaborative Editing",
+    title: "Build Custom Strategies",
     description:
-      "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
+      "Tailor your investment approach to match your unique financial goals and risk tolerance by crafting personalized strategiesTailor your investment approach to match your unique financial goals and risk tolerance by crafting personalized strategiesTailor your investment approach to match your unique financial goals and risk tolerance by crafting personalized strategiesTailor your investment approach to match your unique financial goals and risk tolerance by crafting personalized strategies",
     content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right, red-600, #000)] flex items-center justify-center text-white">
-        Collaborative Editing
-      </div>
-    ),
-  },
-  {
-    title: "Real time changes",
-    description:
-      "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
-    content: (
-      <div className="h-full w-full  flex items-center justify-center text-white">
+      <div className="h-full w-full flex items-center justify-center align-center text-black">
         <img
-          src="/linear.webp"
+          src="https://res.cloudinary.com/dnrxsykwg/image/upload/v1713003004/cld-sample-3.jpg"
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -30,29 +20,57 @@ const content = [
     ),
   },
   {
-    title: "Version control",
+    title: "Backtest with Confidence",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "Backtest your strategies with unwavering confidence using our robust tools and comprehensive insights.Backtest your strategies with unwavering confidence using our robust tools and comprehensive insights.Backtest your strategies with unwavering confidence using our robust tools and comprehensive insights.",
     content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right, #fff, #000)] flex items-center justify-center text-white">
-        Version control
+      <div className="h-full w-full  flex items-center justify-center text-white">
+        <img
+          src="https://res.cloudinary.com/dnrxsykwg/image/upload/v1713003004/cld-sample-3.jpg"
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="linear board demo"
+        />
       </div>
     ),
   },
   {
-    title: "Running out of content",
+    title: "Access Finance Education",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "Our platform provides access to educational resources, webinars, and tutorials to help you level up your trading game.Our platform provides access to educational resources, webinars, and tutorials to help you level up your trading game.Our platform provides access to educational resources, webinars, and tutorials to help you level up your trading game.",
     content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,#000, #000)] flex items-center justify-center text-white">
-        Running out of content
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right, #fff, #000)] flex items-center justify-center text-white">
+        <img
+          src="https://res.cloudinary.com/dnrxsykwg/image/upload/v1713003004/cld-sample-3.jpg"
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="linear board demo"
+        />
+      </div>
+    ),
+  },
+  {
+    title: "Stay ahead of the Curve",
+    description:
+      "Embrace innovation, continuously learn new skills, and anticipate industry trends to stay competitive.Embrace innovation, continuously learn new skills, and anticipate industry trends to stay competitive.Embrace innovation, continuously learn new skills, and anticipate industry trends to stay competitive.Embrace innovation, continuously learn new skills, and anticipate industry trends to stay competitive.",
+    content: (
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,#000, #000)] flex items-center justify-center text-white ">
+        <img
+          src="https://res.cloudinary.com/dnrxsykwg/image/upload/v1713003004/cld-sample-3.jpg"
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="linear board demo"
+        />
       </div>
     ),
   },
 ];
 export function StickyScrollRevealDemo() {
   return (
-    <div className="p-10">
+    <div>
       <StickyScroll content={content} />
     </div>
   );
