@@ -6,9 +6,27 @@ const PicHead = () => {
     return (
         <main>
             <div className={classes.content}>
-                <div className={classes.head}>
-                    <div className={classes.text}>
-                        Invest with Confidence with Us
+                <div className={classes.text}>
+                    <div className={classes.head}>
+                        Enhance Your Investment Knowledge
+                    </div>
+                    <div className={classes.bakiContent}>
+                        
+                        <div>
+                            <div className={classes.stepHead}>Curated Finance Education</div>
+                            <div className={classes.stepContent}>Learn the art of algorithmic-based investing from our expert-led content.</div>
+                        </div>
+
+                        <div>
+                            <div className={classes.stepHead}>Leverage Platform Effectively</div>
+                            <div className={classes.stepContent}>Master the NiveshBuddy tools and features to maximize your investing prowess.</div>
+                        </div>
+
+                        <div>
+                            <div className={classes.stepHead}>Achieve Financial Success</div>
+                            <div className={classes.stepContent}>Gain the knowledge and confidence to make informed investment decisions.</div>
+                        </div>
+
                     </div>
                 </div>
             </div>

@@ -3,13 +3,17 @@
     justify-content: center;
     align-items: center;
     height: 90vh;
-
+    background-image: linear-gradient(rgba(246, 238, 238, 0.8), rgba(252, 252, 252, 0.8)), url(https://res.cloudinary.com/dnrxsykwg/image/upload/v1713003322/img1_wmpznh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .boxLand{
     width: 85vw;
     height: 60vh;
-    background-color: #1e647b;
+    /* background-color: #1e647b; */
+    background-color: #3EB6FF;
     border-radius: 10px;
     display: flex;
     color: white;

@@ -1,6 +1,5 @@
 import React from "react";
-import classes from "../Styles/StatsRight.module.css";
-import { Route } from "react-router-dom";
+import classes from "../Styles/StatsRight.module.css"; 
 
 const StatsRight = () => {
   return (

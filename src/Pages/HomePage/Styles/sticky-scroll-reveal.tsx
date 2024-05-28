@@ -47,14 +47,14 @@ export const StickyScroll = ({
     "#E0C3FC"
   ];
   const linearGradients = [
-    "linear-gradient(to bottom right, #fff, #000)",
-    "linear-gradient(to bottom right, #fff, #000)",
-    "linear-gradient(to bottom right, #fff, #000)",
+    "linear-gradient(to bottom right, #8EC5FC, #E0C3FC)",
+    "linear-gradient(to bottom right, #8EC5FC, #E0C3FC)",
+    "linear-gradient(to bottom right, #8EC5FC, #E0C3FC)",
   ];
   return (
     <motion.div
       animate={{
-        backgroundColor: backgroundColors[activeCard % backgroundColors.length],
+        background: linearGradients[activeCard % linearGradients.length]
       }}
       className="h-[30rem] overflow-y-auto flex justify-center relative space-x-10"
       ref={ref}
@@ -70,7 +70,7 @@ export const StickyScroll = ({
                 animate={{
                   opacity: activeCard === index ? 1 : 0.3,
                 }}
-                className="text-2xl font-bold text-slate-100 text-black"
+                className="text-2xl font-bold text-black"
               >
                 {item.title}
               </motion.h2>
@@ -81,7 +81,7 @@ export const StickyScroll = ({
                 animate={{
                   opacity: activeCard === index ? 1 : 0.3,
                 }}
-                className="text-kg text-slate-300 max-w-sm mt-10 text-black"
+                className="text-kg max-w-sm mt-10 text-black"
               >
                 {item.description}
               </motion.p>

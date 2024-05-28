@@ -6,18 +6,18 @@ import StatsRight from "./Components/StatsRight";
 import StratInfo from "./Components/StratInfo";
 import Steps from "./Components/Steps";
 
-import classes from "./Styles/Dashboard.module.css";
+// import classes from "./Styles/Dashboard.module.css";
 
 const Dashboard = () =>{
     return(
         <>
-            {/* <Navbar/>
-            <div className={classes.page}>
+            <Navbar/>
+            <div className="page">  
                 <SideMenu/>
                 <NameBar/>
                 <StatsRight/>
                 <StratInfo/>
-            </div> */}
+            </div>
             <Steps/>
         </>
     )
