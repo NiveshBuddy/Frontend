@@ -40,12 +40,12 @@ export const StickyScroll = ({
     setActiveCard(closestBreakpointIndex);
   });
 
-  const backgroundColors = [
-    "#E0C3FC",
-    "#E0C3FC",
-    "#E0C3FC",
-    "#E0C3FC"
-  ];
+  // const backgroundColors = [
+  //   "#E0C3FC",
+  //   "#E0C3FC",
+  //   "#E0C3FC",
+  //   "#E0C3FC"
+  // ];
   const linearGradients = [
     "linear-gradient(to bottom right, #8EC5FC, #E0C3FC)",
     "linear-gradient(to bottom right, #8EC5FC, #E0C3FC)",
