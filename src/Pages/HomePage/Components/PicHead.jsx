@@ -12,17 +12,17 @@ const PicHead = () => {
                     </div>
                     <div className={classes.bakiContent}>
                         
-                        <div>
+                        <div className={classes.stepPart}>
                             <div className={classes.stepHead}>Curated Finance Education</div>
                             <div className={classes.stepContent}>Learn the art of algorithmic-based investing from our expert-led content.</div>
                         </div>
 
-                        <div>
+                        <div className={classes.stepPart}>
                             <div className={classes.stepHead}>Leverage Platform Effectively</div>
                             <div className={classes.stepContent}>Master the NiveshBuddy tools and features to maximize your investing prowess.</div>
                         </div>
 
-                        <div>
+                        <div className={classes.stepPart}>
                             <div className={classes.stepHead}>Achieve Financial Success</div>
                             <div className={classes.stepContent}>Gain the knowledge and confidence to make informed investment decisions.</div>
                         </div>

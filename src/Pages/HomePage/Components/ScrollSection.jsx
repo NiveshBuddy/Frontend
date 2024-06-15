@@ -10,7 +10,7 @@ const content = [
     content: (
       <div className="h-full w-full flex items-center justify-center align-center text-black">
         <img
-          src="https://res.cloudinary.com/dnrxsykwg/image/upload/v1713003004/cld-sample-3.jpg"
+          src="https://res.cloudinary.com/dsu2kv8ym/image/upload/v1718447714/3-Divergence-3_nbi3vn.png"
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -26,7 +26,7 @@ const content = [
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <img
-          src="https://res.cloudinary.com/dnrxsykwg/image/upload/v1713003004/cld-sample-3.jpg"
+          src="https://res.cloudinary.com/dsu2kv8ym/image/upload/v1718447713/610eb267dc792574f6217584_Screen_Shot_2021-08-07_at_12.10.22_PM-2_axlp6t.png"
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -42,7 +42,7 @@ const content = [
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right, #fff, #000)] flex items-center justify-center text-white">
         <img
-          src="https://res.cloudinary.com/dnrxsykwg/image/upload/v1713003004/cld-sample-3.jpg"
+          src="https://res.cloudinary.com/dsu2kv8ym/image/upload/v1718447714/f4d490b3f52cfbb171d09711ed2a6b3a_mev1uv.jpg"
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -58,7 +58,7 @@ const content = [
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,#000, #000)] flex items-center justify-center text-white ">
         <img
-          src="https://res.cloudinary.com/dnrxsykwg/image/upload/v1713003004/cld-sample-3.jpg"
+          src="https://res.cloudinary.com/dsu2kv8ym/image/upload/v1718447713/competition-_cx1wa1.jpg"
           width={300}
           height={300}
           className="h-full w-full object-cover"

@@ -2,20 +2,6 @@ import React from "react";
 import classes from "../Styles/SectionTwo.module.css";
 import { motion } from "framer-motion";
 
-// function Component() {
-//     const scrollRef = useRef();
-
-//     return (
-//       <div ref={scrollRef} style={{ overflow: "scroll" }}>
-//         <motion.div
-//           initial={{ opacity: 0 }}
-//           whileInView={{ opacity: 1 }}
-//           viewport={{ root: scrollRef }}
-//         />
-//       </div>
-//     )
-//   }
-
 const SectionTwo = () => {
   return (
     <main>

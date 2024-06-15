@@ -63,6 +63,7 @@
     align-items: center;
     opacity: 1;
     border-radius: 15px;
+    font-family: "Poppins";
   }
   
   .card:hover .first_content {
